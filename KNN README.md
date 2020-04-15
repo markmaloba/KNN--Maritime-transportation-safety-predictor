@@ -32,3 +32,18 @@ We will use a the K Nearest neighbors classifier for this model, with varying te
 The total number of passengers on the ill-fated Titanic was 2,224. Of those, we had 1317 passengers. Our data comprises 891 records. It is important to note that our dataset does not capture accomodation and boarding details for any of the staff, so we can't predict their survival rates. The missing 60 percent of the data may drastically improve our model if added to our data.
 
 However, we do have 67 percent of passenger data which is a pretty darn good sample size as far as predicting PASSENGER survival goes.
+
+# Results & Conclusion
+Interesting findings!
+
+Increasing the size of the test set improves our accuracy, but after some point the scales tip and the law of diminishing returns takes over.
+
+Increasing the size of 'n' (number of neighbors our model looks at when making comparisons) decreases our accuracy.
+
+However, decreasing the size of 'n' SENDS OUR ACCURACY INTO THE FRICKING STRATOSPHERE!
+
+I was not expecting that much of an improvement! 😳
+
+I'm proud to say that the new accuracy level stands at EIGHTY EIGHT PERCENT!
+
+Armed with this model, I valiantly accept my mission to go back to 1912 and stem the loss of lives that occured as a result of the Titanic sinking! ⚔🛡
